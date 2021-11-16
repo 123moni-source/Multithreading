@@ -1,0 +1,24 @@
+//MULTITHREADING
+//Thread is a subprocess of the main process
+// Used to increase the performance of the  CPU
+public class MyExp
+{
+public static void main(String[])
+{
+Thread obj=Thread.currentThread();
+    System.out.println(obj.getName());
+    obj.setName("me");
+    obj.setPriority(Thread);
+    System.out.println(obj.getId());
+    System.out.println(obj.isAlive());
+    System.out.println(obj.getPriority())
+    System.out.println(obj.isDaemon());//low prority threads are called the demon thread
+ //how to create mutithreaded application
+//two ways to create multithreaded ampplication
+//1-by extending the thread class
+//2-by implementing the runnable imterface
+//runnable interface is known as Functional interface
+//one method
+//run() method
+
+//lambda expression
